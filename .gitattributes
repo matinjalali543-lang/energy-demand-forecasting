@@ -1,0 +1,6 @@
+# The result tables must round-trip byte for byte, so that a fresh
+# `python src/data_download.py && python src/backtest.py` can be checked against
+# what is committed with a plain diff. Without this, autocrlf rewrites them on
+# Windows checkout and every file "changes".
+results/*.csv -text
+*.png binary

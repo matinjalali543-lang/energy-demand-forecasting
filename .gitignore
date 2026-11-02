@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+build/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Secrets. The EIA key lives here and nowhere else.
+.env
+
+# Data is never committed: data/raw/ is the download cache and data/processed/
+# is rebuilt from it by `python src/data_download.py`. Only the README is tracked.
+data/*
+!data/README.md
+
+# results/ (small evidence tables) and reports/figures/ ARE tracked.

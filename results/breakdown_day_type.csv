@@ -1,0 +1,51 @@
+day_type,MAPE_%,MAE_mw,bias_mw,hours,model,weather
+day next to a major holiday,6.5397,3481.9444,1496.5694,288,Seasonal naive (same hour last week),not used
+major holiday,7.4335,3711.1625,2456.3958,240,Seasonal naive (same hour last week),not used
+minor holiday,6.6780,3547.1528,233.1250,216,Seasonal naive (same hour last week),not used
+ordinary weekday,7.3805,4230.4487,-335.3857,5663,Seasonal naive (same hour last week),not used
+weekend,7.7023,4266.9834,-270.8245,2353,Seasonal naive (same hour last week),not used
+day next to a major holiday,2.2829,1349.3742,-454.3607,265,Vanilla regression (GEFCom benchmark),observed
+major holiday,2.7312,1545.4182,-435.3586,240,Vanilla regression (GEFCom benchmark),observed
+minor holiday,2.6692,1478.5493,-209.3777,216,Vanilla regression (GEFCom benchmark),observed
+ordinary weekday,2.3704,1422.3572,-547.6232,5594,Vanilla regression (GEFCom benchmark),observed
+weekend,2.5179,1447.7244,-515.4792,2324,Vanilla regression (GEFCom benchmark),observed
+day next to a major holiday,1.9224,1066.3764,445.2757,265,"LightGBM, P10/P50/P90",observed
+major holiday,2.3208,1190.5277,862.2177,240,"LightGBM, P10/P50/P90",observed
+minor holiday,1.6351,905.0500,78.7776,216,"LightGBM, P10/P50/P90",observed
+ordinary weekday,2.3349,1374.1151,457.1307,5594,"LightGBM, P10/P50/P90",observed
+weekend,2.2652,1270.8509,300.7038,2324,"LightGBM, P10/P50/P90",observed
+day next to a major holiday,2.0286,1127.4268,505.9741,265,"LightGBM, P10/P50/P90 + conformal",observed
+major holiday,2.6326,1341.5620,989.6857,240,"LightGBM, P10/P50/P90 + conformal",observed
+minor holiday,1.6763,930.4235,-29.8025,216,"LightGBM, P10/P50/P90 + conformal",observed
+ordinary weekday,2.3987,1414.4445,437.0061,5594,"LightGBM, P10/P50/P90 + conformal",observed
+weekend,2.3528,1332.7066,320.6538,2324,"LightGBM, P10/P50/P90 + conformal",observed
+day next to a major holiday,2.6253,1459.8744,-1173.0863,265,"LightGBM, MW target (ablation)",observed
+major holiday,2.6223,1477.6855,-762.5029,240,"LightGBM, MW target (ablation)",observed
+minor holiday,2.7885,1543.4976,-1296.7484,216,"LightGBM, MW target (ablation)",observed
+ordinary weekday,3.1405,1879.2412,-1535.0603,5594,"LightGBM, MW target (ablation)",observed
+weekend,3.0705,1755.8407,-1323.9313,2324,"LightGBM, MW target (ablation)",observed
+day next to a major holiday,1.4523,812.8681,40.1458,288,ERCOT published day-ahead forecast,not used
+major holiday,1.7994,958.7917,541.4250,240,ERCOT published day-ahead forecast,not used
+minor holiday,2.9095,1648.4028,500.6250,216,ERCOT published day-ahead forecast,not used
+ordinary weekday,2.0043,1150.9356,361.3810,5591,ERCOT published day-ahead forecast,not used
+weekend,1.9899,1105.8273,180.8009,2305,ERCOT published day-ahead forecast,not used
+day next to a major holiday,2.7244,1579.1942,-162.7905,288,Vanilla regression (GEFCom benchmark),forecast
+major holiday,2.9000,1673.4274,-336.9663,240,Vanilla regression (GEFCom benchmark),forecast
+minor holiday,2.8500,1652.0241,-772.3984,216,Vanilla regression (GEFCom benchmark),forecast
+ordinary weekday,3.0200,1830.4440,-752.7286,5663,Vanilla regression (GEFCom benchmark),forecast
+weekend,2.8901,1686.7640,-502.5411,2353,Vanilla regression (GEFCom benchmark),forecast
+day next to a major holiday,2.5112,1432.6860,474.9077,288,"LightGBM, P10/P50/P90",forecast
+major holiday,2.5025,1352.1836,730.1477,240,"LightGBM, P10/P50/P90",forecast
+minor holiday,2.2203,1268.3402,-292.8724,216,"LightGBM, P10/P50/P90",forecast
+ordinary weekday,2.9876,1786.3870,322.6898,5663,"LightGBM, P10/P50/P90",forecast
+weekend,2.8133,1612.0882,288.8638,2353,"LightGBM, P10/P50/P90",forecast
+day next to a major holiday,2.4996,1429.6861,534.2485,288,"LightGBM, P10/P50/P90 + conformal",forecast
+major holiday,2.7394,1456.7506,906.7824,240,"LightGBM, P10/P50/P90 + conformal",forecast
+minor holiday,2.1937,1257.3000,-321.3584,216,"LightGBM, P10/P50/P90 + conformal",forecast
+ordinary weekday,3.0233,1809.9881,293.7277,5663,"LightGBM, P10/P50/P90 + conformal",forecast
+weekend,2.8742,1656.5339,330.1537,2353,"LightGBM, P10/P50/P90 + conformal",forecast
+day next to a major holiday,2.9969,1651.2822,-1065.2511,288,"LightGBM, MW target (ablation)",forecast
+major holiday,2.5400,1423.7826,-892.3290,240,"LightGBM, MW target (ablation)",forecast
+minor holiday,3.6108,2007.0132,-1651.0343,216,"LightGBM, MW target (ablation)",forecast
+ordinary weekday,3.8412,2298.6662,-1774.6910,5663,"LightGBM, MW target (ablation)",forecast
+weekend,3.5699,2047.4929,-1378.9994,2353,"LightGBM, MW target (ablation)",forecast

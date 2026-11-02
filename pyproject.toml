@@ -1,0 +1,60 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "energy-demand-forecasting"
+version = "0.1.0"
+description = "Day-ahead hourly electricity demand forecasting for ERCOT: honest rolling backtests, weather features and P10/P50/P90 quantiles"
+readme = "README.md"
+requires-python = ">=3.12"  # numpy 2.5 needs 3.12
+license = { text = "MIT" }
+authors = [{ name = "matinjalali543-lang" }]
+keywords = [
+    "load-forecasting", "electricity-demand", "ercot", "lightgbm",
+    "quantile-regression", "backtesting", "time-series",
+]
+
+# Exact pins, per the brief: the README numbers must reproduce from a clean
+# environment, and a minor LightGBM or pandas release is enough to move them.
+dependencies = [
+    "numpy==2.5.4",
+    "pandas==3.1.0",
+    "scikit-learn==1.9.1",
+    "lightgbm==4.7.0",
+    "holidays==0.107",
+    "matplotlib==3.11.2",
+    "pyarrow==26.0.0",  # reads NOAA's Parquet files
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest==9.2.0",
+    "ruff==0.17.3",
+]
+notebooks = [
+    # Only needed to regenerate notebooks/. Kept out of the CI install.
+    "nbformat==5.11.1",
+    "nbconvert==7.17.2",
+    "ipykernel==7.4.0",
+]
+
+[project.urls]
+Repository = "https://github.com/matinjalali543-lang/energy-demand-forecasting"
+
+# The brief asks for flat scripts (`python src/backtest.py`), not a package, so
+# there is nothing for setuptools to discover; `pip install -e .` installs the
+# pinned dependencies only.
+[tool.setuptools]
+py-modules = []
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

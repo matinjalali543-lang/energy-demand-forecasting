@@ -1,0 +1,41 @@
+season,MAPE_%,MAE_mw,bias_mw,hours,model,weather
+autumn,6.0678,3335.3098,1256.4229,2185,Seasonal naive (same hour last week),not used
+spring,9.6304,5240.3439,-753.5174,2207,Seasonal naive (same hour last week),not used
+summer,5.0761,3506.3442,-1037.6757,2208,Seasonal naive (same hour last week),not used
+winter,8.9393,4658.2444,-118.8519,2160,Seasonal naive (same hour last week),not used
+autumn,2.6910,1655.1916,-1014.8520,2149,Vanilla regression (GEFCom benchmark),observed
+spring,2.5925,1423.4660,-439.4548,2197,Vanilla regression (GEFCom benchmark),observed
+summer,1.9640,1384.2812,-957.6471,2165,Vanilla regression (GEFCom benchmark),observed
+winter,2.4521,1263.0163,323.4069,2128,Vanilla regression (GEFCom benchmark),observed
+autumn,2.6537,1575.4318,432.7185,2149,"LightGBM, P10/P50/P90",observed
+spring,1.9682,1042.5504,25.7647,2197,"LightGBM, P10/P50/P90",observed
+summer,1.8116,1247.7327,331.0461,2165,"LightGBM, P10/P50/P90",observed
+winter,2.7238,1422.2918,890.3849,2128,"LightGBM, P10/P50/P90",observed
+autumn,2.8218,1676.9981,352.4047,2149,"LightGBM, P10/P50/P90 + conformal",observed
+spring,1.9322,1023.1889,5.3740,2197,"LightGBM, P10/P50/P90 + conformal",observed
+summer,1.8958,1306.4360,321.2140,2165,"LightGBM, P10/P50/P90 + conformal",observed
+winter,2.8216,1480.7700,982.3446,2128,"LightGBM, P10/P50/P90 + conformal",observed
+autumn,3.1290,1732.3946,-1420.8257,2149,"LightGBM, MW target (ablation)",observed
+spring,3.0035,1676.1793,-1352.7816,2197,"LightGBM, MW target (ablation)",observed
+summer,3.5138,2461.4020,-2139.2644,2165,"LightGBM, MW target (ablation)",observed
+winter,2.6790,1378.5427,-836.9298,2128,"LightGBM, MW target (ablation)",observed
+autumn,2.1141,1154.0916,546.2018,2161,ERCOT published day-ahead forecast,not used
+spring,1.9529,1055.8364,38.9456,2207,ERCOT published day-ahead forecast,not used
+summer,1.6160,1107.8116,49.7977,2160,ERCOT published day-ahead forecast,not used
+winter,2.3211,1224.8996,621.6894,2112,ERCOT published day-ahead forecast,not used
+autumn,3.1233,1941.6828,-1390.0427,2185,Vanilla regression (GEFCom benchmark),forecast
+spring,2.9953,1647.3739,-302.8523,2207,Vanilla regression (GEFCom benchmark),forecast
+summer,2.8442,1950.8169,-807.4193,2208,Vanilla regression (GEFCom benchmark),forecast
+winter,2.9091,1556.6173,-116.3679,2160,Vanilla regression (GEFCom benchmark),forecast
+autumn,3.1407,1875.7129,132.7082,2185,"LightGBM, P10/P50/P90",forecast
+spring,2.8614,1557.3494,193.4640,2207,"LightGBM, P10/P50/P90",forecast
+summer,2.6111,1815.9477,380.3932,2208,"LightGBM, P10/P50/P90",forecast
+winter,2.9627,1562.7484,555.0864,2160,"LightGBM, P10/P50/P90",forecast
+autumn,3.2781,1959.0885,49.7920,2185,"LightGBM, P10/P50/P90 + conformal",forecast
+spring,2.8031,1524.2312,193.9531,2207,"LightGBM, P10/P50/P90 + conformal",forecast
+summer,2.6869,1867.2669,373.9028,2208,"LightGBM, P10/P50/P90 + conformal",forecast
+winter,2.9876,1580.1951,638.8342,2160,"LightGBM, P10/P50/P90 + conformal",forecast
+autumn,3.9395,2261.1432,-1734.9718,2185,"LightGBM, MW target (ablation)",forecast
+spring,3.2297,1781.8772,-1240.1776,2207,"LightGBM, MW target (ablation)",forecast
+summer,4.1721,2854.0167,-2250.5008,2208,"LightGBM, MW target (ablation)",forecast
+winter,3.4525,1810.6574,-1238.5853,2160,"LightGBM, MW target (ablation)",forecast

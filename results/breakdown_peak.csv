@@ -1,0 +1,21 @@
+peak,MAPE_%,MAE_mw,bias_mw,hours,model,weather
+off-peak,7.0920,3846.4344,-161.3985,6570,Seasonal naive (same hour last week),not used
+peak 14:00-19:59,8.4176,5199.0105,-185.0452,2190,Seasonal naive (same hour last week),not used
+off-peak,2.2326,1254.2908,-326.3320,6465,Vanilla regression (GEFCom benchmark),observed
+peak 14:00-19:59,2.9968,1959.5396,-1113.9644,2174,Vanilla regression (GEFCom benchmark),observed
+off-peak,2.2460,1250.0313,360.1319,6465,"LightGBM, P10/P50/P90",observed
+peak 14:00-19:59,2.4034,1528.3405,584.0470,2174,"LightGBM, P10/P50/P90",observed
+off-peak,2.3302,1302.9589,367.8735,6465,"LightGBM, P10/P50/P90 + conformal",observed
+peak 14:00-19:59,2.4624,1567.4784,541.2511,2174,"LightGBM, P10/P50/P90 + conformal",observed
+off-peak,2.9955,1680.7240,-1308.3975,6465,"LightGBM, MW target (ablation)",observed
+peak 14:00-19:59,3.3419,2208.8663,-1830.3220,2174,"LightGBM, MW target (ablation)",observed
+off-peak,1.9893,1085.0835,278.9918,6480,ERCOT published day-ahead forecast,not used
+peak 14:00-19:59,2.0282,1283.6773,406.9440,2160,ERCOT published day-ahead forecast,not used
+off-peak,2.8015,1609.9198,-657.2935,6570,Vanilla regression (GEFCom benchmark),forecast
+peak 14:00-19:59,3.4671,2269.7969,-649.0212,2190,Vanilla regression (GEFCom benchmark),forecast
+off-peak,2.7227,1538.1435,136.8060,6570,"LightGBM, P10/P50/P90",forecast
+peak 14:00-19:59,3.4038,2198.6527,847.9551,2190,"LightGBM, P10/P50/P90",forecast
+off-peak,2.7721,1571.2677,149.5144,6570,"LightGBM, P10/P50/P90 + conformal",forecast
+peak 14:00-19:59,3.4349,2218.0388,803.6529,2190,"LightGBM, P10/P50/P90 + conformal",forecast
+off-peak,3.6628,2074.7105,-1623.6462,6570,"LightGBM, MW target (ablation)",forecast
+peak 14:00-19:59,3.8085,2490.8866,-1600.4932,2190,"LightGBM, MW target (ablation)",forecast

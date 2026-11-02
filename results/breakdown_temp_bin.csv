@@ -1,0 +1,71 @@
+temp_bin,MAPE_%,MAE_mw,bias_mw,hours,model,weather
+< 0,17.4070,11809.6625,-10806.9375,80,Seasonal naive (same hour last week),not used
+0-10,10.1433,5428.1063,-2766.4448,715,Seasonal naive (same hour last week),not used
+10-20,8.4429,3972.0770,3053.8776,2157,Seasonal naive (same hour last week),not used
+20-25,7.3737,3785.3597,263.4677,1871,Seasonal naive (same hour last week),not used
+25-30,6.7781,4168.6253,-1108.2712,2378,Seasonal naive (same hour last week),not used
+30-35,5.2670,3967.8793,-1743.8793,1185,Seasonal naive (same hour last week),not used
+≥ 35,4.2831,3711.0174,-2477.5729,288,Seasonal naive (same hour last week),not used
+< 0,4.4988,3035.4681,2751.7456,78,Vanilla regression (GEFCom benchmark),observed
+0-10,3.1295,1625.6376,816.0641,712,Vanilla regression (GEFCom benchmark),observed
+10-20,2.1160,997.6433,202.8634,2154,Vanilla regression (GEFCom benchmark),observed
+20-25,2.2206,1156.9391,-317.8831,1865,Vanilla regression (GEFCom benchmark),observed
+25-30,2.4141,1502.0836,-975.0288,2361,Vanilla regression (GEFCom benchmark),observed
+30-35,2.8712,2218.6499,-2066.3519,1184,Vanilla regression (GEFCom benchmark),observed
+≥ 35,2.0034,1736.4652,-1483.0926,285,Vanilla regression (GEFCom benchmark),observed
+< 0,5.8566,3964.1921,3780.6529,78,"LightGBM, P10/P50/P90",observed
+0-10,2.9054,1561.3983,1043.8861,712,"LightGBM, P10/P50/P90",observed
+10-20,2.4983,1183.3906,437.5397,2154,"LightGBM, P10/P50/P90",observed
+20-25,1.9722,1014.0781,84.9829,1865,"LightGBM, P10/P50/P90",observed
+25-30,2.1348,1317.7865,234.9985,2361,"LightGBM, P10/P50/P90",observed
+30-35,2.2408,1714.9387,600.9028,1184,"LightGBM, P10/P50/P90",observed
+≥ 35,1.6387,1407.3034,675.7166,285,"LightGBM, P10/P50/P90",observed
+< 0,6.4056,4355.1197,4327.1148,78,"LightGBM, P10/P50/P90 + conformal",observed
+0-10,2.9609,1595.2631,1099.6528,712,"LightGBM, P10/P50/P90 + conformal",observed
+10-20,2.4713,1171.0978,443.5502,2154,"LightGBM, P10/P50/P90 + conformal",observed
+20-25,2.0685,1064.2127,83.2977,1865,"LightGBM, P10/P50/P90 + conformal",observed
+25-30,2.2490,1386.4871,186.9416,2361,"LightGBM, P10/P50/P90 + conformal",observed
+30-35,2.4154,1842.2035,607.3091,1184,"LightGBM, P10/P50/P90 + conformal",observed
+≥ 35,1.6116,1381.8744,573.1011,285,"LightGBM, P10/P50/P90 + conformal",observed
+< 0,2.8845,1920.5975,928.6330,78,"LightGBM, MW target (ablation)",observed
+0-10,2.7455,1465.4573,-732.3705,712,"LightGBM, MW target (ablation)",observed
+10-20,2.7793,1322.3043,-927.8649,2154,"LightGBM, MW target (ablation)",observed
+20-25,3.1540,1646.4759,-1500.4953,1865,"LightGBM, MW target (ablation)",observed
+25-30,3.3471,2074.0941,-1792.5722,2361,"LightGBM, MW target (ablation)",observed
+30-35,3.2018,2435.9352,-1987.6431,1184,"LightGBM, MW target (ablation)",observed
+≥ 35,3.1190,2718.3835,-2127.0803,285,"LightGBM, MW target (ablation)",observed
+< 0,3.8332,2580.7875,1236.7375,80,ERCOT published day-ahead forecast,not used
+0-10,3.1747,1690.8632,1017.9141,687,ERCOT published day-ahead forecast,not used
+10-20,2.1197,1005.4516,636.4249,2137,ERCOT published day-ahead forecast,not used
+20-25,2.0534,1061.2797,196.3417,1870,ERCOT published day-ahead forecast,not used
+25-30,1.7561,1081.8788,-59.9565,2343,ERCOT published day-ahead forecast,not used
+30-35,1.4291,1087.4917,117.9314,1151,ERCOT published day-ahead forecast,not used
+≥ 35,1.4736,1268.4091,241.5420,286,ERCOT published day-ahead forecast,not used
+< 0,6.3873,4342.3827,1978.0380,80,Vanilla regression (GEFCom benchmark),forecast
+0-10,3.5462,1919.7682,-451.7810,715,Vanilla regression (GEFCom benchmark),forecast
+10-20,2.1223,1000.2610,379.5519,2157,Vanilla regression (GEFCom benchmark),forecast
+20-25,2.6742,1397.3007,-502.8246,1871,Vanilla regression (GEFCom benchmark),forecast
+25-30,3.4840,2167.9975,-1429.3302,2378,Vanilla regression (GEFCom benchmark),forecast
+30-35,3.3303,2533.0890,-1583.2817,1185,Vanilla regression (GEFCom benchmark),forecast
+≥ 35,2.6092,2238.7217,-503.8491,288,Vanilla regression (GEFCom benchmark),forecast
+< 0,5.8931,3974.8129,2963.5575,80,"LightGBM, P10/P50/P90",forecast
+0-10,3.1062,1686.6904,198.0395,715,"LightGBM, P10/P50/P90",forecast
+10-20,2.7649,1313.1154,589.1077,2157,"LightGBM, P10/P50/P90",forecast
+20-25,2.6947,1406.7183,-50.5214,1871,"LightGBM, P10/P50/P90",forecast
+25-30,3.0008,1874.8838,8.7541,2378,"LightGBM, P10/P50/P90",forecast
+30-35,3.0989,2374.0608,700.7617,1185,"LightGBM, P10/P50/P90",forecast
+≥ 35,1.8921,1625.6628,799.7430,288,"LightGBM, P10/P50/P90",forecast
+< 0,6.2498,4233.9260,3380.0090,80,"LightGBM, P10/P50/P90 + conformal",forecast
+0-10,3.0898,1679.0678,211.6463,715,"LightGBM, P10/P50/P90 + conformal",forecast
+10-20,2.7311,1297.5237,600.5197,2157,"LightGBM, P10/P50/P90 + conformal",forecast
+20-25,2.7256,1421.9255,-38.3657,1871,"LightGBM, P10/P50/P90 + conformal",forecast
+25-30,3.0854,1924.9977,-16.3489,2378,"LightGBM, P10/P50/P90 + conformal",forecast
+30-35,3.2589,2487.4014,686.9172,1185,"LightGBM, P10/P50/P90 + conformal",forecast
+≥ 35,1.8351,1574.6299,673.9925,288,"LightGBM, P10/P50/P90 + conformal",forecast
+< 0,3.9292,2617.1095,55.5245,80,"LightGBM, MW target (ablation)",forecast
+0-10,4.1400,2257.1209,-1596.9357,715,"LightGBM, MW target (ablation)",forecast
+10-20,2.7411,1299.7941,-794.2113,2157,"LightGBM, MW target (ablation)",forecast
+20-25,3.7705,1958.7026,-1665.2077,1871,"LightGBM, MW target (ablation)",forecast
+25-30,4.4505,2739.9899,-2223.6164,2378,"LightGBM, MW target (ablation)",forecast
+30-35,3.7462,2838.5069,-1906.1152,1185,"LightGBM, MW target (ablation)",forecast
+≥ 35,2.9196,2541.7579,-1921.0388,288,"LightGBM, MW target (ablation)",forecast

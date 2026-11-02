@@ -1,0 +1,241 @@
+hour,MAPE_%,MAE_mw,bias_mw,hours,model,weather
+0,7.0970,3678.0274,-155.4904,365,Seasonal naive (same hour last week),not used
+1,7.1164,3567.2295,-134.4918,366,Seasonal naive (same hour last week),not used
+2,7.1045,3483.8379,-144.5522,364,Seasonal naive (same hour last week),not used
+3,7.0117,3402.6000,-136.0904,365,Seasonal naive (same hour last week),not used
+4,7.0571,3434.2740,-132.2192,365,Seasonal naive (same hour last week),not used
+5,7.0516,3507.0685,-127.6877,365,Seasonal naive (same hour last week),not used
+6,6.9620,3590.3726,-151.8356,365,Seasonal naive (same hour last week),not used
+7,6.7870,3572.7151,-140.0137,365,Seasonal naive (same hour last week),not used
+8,6.5432,3512.7699,-140.6932,365,Seasonal naive (same hour last week),not used
+9,6.4574,3548.8247,-158.7041,365,Seasonal naive (same hour last week),not used
+10,6.5785,3697.6493,-168.6795,365,Seasonal naive (same hour last week),not used
+11,7.0264,4042.7616,-179.3370,365,Seasonal naive (same hour last week),not used
+12,7.7520,4561.6411,-188.0904,365,Seasonal naive (same hour last week),not used
+13,8.4241,5046.2575,-195.2603,365,Seasonal naive (same hour last week),not used
+14,8.8625,5359.3507,-191.6137,365,Seasonal naive (same hour last week),not used
+15,8.9285,5454.6986,-187.7123,365,Seasonal naive (same hour last week),not used
+16,8.6974,5383.4219,-187.1699,365,Seasonal naive (same hour last week),not used
+17,8.3237,5204.2959,-186.8438,365,Seasonal naive (same hour last week),not used
+18,7.9979,5019.2055,-165.0082,365,Seasonal naive (same hour last week),not used
+19,7.6957,4773.0904,-191.9233,365,Seasonal naive (same hour last week),not used
+20,7.3361,4465.9945,-187.7370,365,Seasonal naive (same hour last week),not used
+21,7.1634,4248.7699,-196.4411,365,Seasonal naive (same hour last week),not used
+22,7.1293,4052.7918,-184.4521,365,Seasonal naive (same hour last week),not used
+23,7.0592,3822.0055,-183.4247,365,Seasonal naive (same hour last week),not used
+0,2.0507,1104.0274,-402.5545,358,Vanilla regression (GEFCom benchmark),observed
+1,1.9630,1012.2506,-273.0808,360,Vanilla regression (GEFCom benchmark),observed
+2,1.9590,984.9120,-139.4551,357,Vanilla regression (GEFCom benchmark),observed
+3,2.0642,1017.2025,-52.0260,357,Vanilla regression (GEFCom benchmark),observed
+4,2.1248,1049.1920,-6.1547,357,Vanilla regression (GEFCom benchmark),observed
+5,2.1509,1081.0852,13.3201,357,Vanilla regression (GEFCom benchmark),observed
+6,2.3281,1205.8485,93.8138,357,Vanilla regression (GEFCom benchmark),observed
+7,2.2522,1177.9870,191.0014,357,Vanilla regression (GEFCom benchmark),observed
+8,2.0469,1099.6651,152.7445,358,Vanilla regression (GEFCom benchmark),observed
+9,1.8650,1043.0789,-14.0321,359,Vanilla regression (GEFCom benchmark),observed
+10,2.0754,1198.2129,-282.9027,360,Vanilla regression (GEFCom benchmark),observed
+11,2.5108,1500.8812,-600.1080,361,Vanilla regression (GEFCom benchmark),observed
+12,2.7660,1703.8036,-791.1388,363,Vanilla regression (GEFCom benchmark),observed
+13,3.0344,1926.3415,-1057.0898,361,Vanilla regression (GEFCom benchmark),observed
+14,3.1095,2002.2073,-1101.9067,361,Vanilla regression (GEFCom benchmark),observed
+15,3.1687,2064.7954,-1135.4965,363,Vanilla regression (GEFCom benchmark),observed
+16,3.1008,2051.7026,-1168.9041,363,Vanilla regression (GEFCom benchmark),observed
+17,3.0011,1989.6726,-1170.2829,363,Vanilla regression (GEFCom benchmark),observed
+18,2.8260,1849.7350,-1102.8190,362,Vanilla regression (GEFCom benchmark),observed
+19,2.7743,1798.6143,-1003.9767,362,Vanilla regression (GEFCom benchmark),observed
+20,2.4897,1605.5108,-842.8618,363,Vanilla regression (GEFCom benchmark),observed
+21,2.2290,1392.1800,-735.2838,362,Vanilla regression (GEFCom benchmark),observed
+22,2.1595,1276.0651,-606.8410,360,Vanilla regression (GEFCom benchmark),observed
+23,2.0993,1177.8813,-488.7302,358,Vanilla regression (GEFCom benchmark),observed
+0,2.0318,1090.1685,-3.0750,358,"LightGBM, P10/P50/P90",observed
+1,1.9856,1029.3465,42.4288,360,"LightGBM, P10/P50/P90",observed
+2,2.0078,1012.6889,36.1510,357,"LightGBM, P10/P50/P90",observed
+3,1.9800,981.4500,82.2602,357,"LightGBM, P10/P50/P90",observed
+4,1.9771,979.4285,71.6584,357,"LightGBM, P10/P50/P90",observed
+5,2.0061,1009.9633,84.1978,357,"LightGBM, P10/P50/P90",observed
+6,2.2073,1142.5461,205.7203,357,"LightGBM, P10/P50/P90",observed
+7,2.2190,1165.1996,378.7740,357,"LightGBM, P10/P50/P90",observed
+8,2.2678,1228.0936,481.8656,358,"LightGBM, P10/P50/P90",observed
+9,2.2071,1235.0308,507.3752,359,"LightGBM, P10/P50/P90",observed
+10,2.2670,1308.0406,599.7886,360,"LightGBM, P10/P50/P90",observed
+11,2.3454,1395.5219,614.9929,361,"LightGBM, P10/P50/P90",observed
+12,2.4392,1486.0767,582.0233,363,"LightGBM, P10/P50/P90",observed
+13,2.3959,1487.4613,518.9427,361,"LightGBM, P10/P50/P90",observed
+14,2.4333,1518.6261,511.7052,361,"LightGBM, P10/P50/P90",observed
+15,2.4330,1534.1373,514.7388,363,"LightGBM, P10/P50/P90",observed
+16,2.3069,1484.9881,437.3885,363,"LightGBM, P10/P50/P90",observed
+17,2.3617,1528.1645,615.8800,363,"LightGBM, P10/P50/P90",observed
+18,2.3882,1534.2225,686.6365,362,"LightGBM, P10/P50/P90",observed
+19,2.4980,1569.9816,738.2421,362,"LightGBM, P10/P50/P90",observed
+20,2.5277,1560.3944,756.3597,363,"LightGBM, P10/P50/P90",observed
+21,2.5210,1522.8757,641.2128,362,"LightGBM, P10/P50/P90",observed
+22,2.5245,1467.4002,530.5762,360,"LightGBM, P10/P50/P90",observed
+23,2.5023,1381.3468,331.3175,358,"LightGBM, P10/P50/P90",observed
+0,2.0870,1120.1707,1.6915,358,"LightGBM, P10/P50/P90 + conformal",observed
+1,1.9971,1039.2863,33.6847,360,"LightGBM, P10/P50/P90 + conformal",observed
+2,2.0501,1037.2425,28.7663,357,"LightGBM, P10/P50/P90 + conformal",observed
+3,2.0222,1006.0447,82.3200,357,"LightGBM, P10/P50/P90 + conformal",observed
+4,2.0249,1007.0331,26.0181,357,"LightGBM, P10/P50/P90 + conformal",observed
+5,2.1055,1061.8586,105.6728,357,"LightGBM, P10/P50/P90 + conformal",observed
+6,2.2479,1169.3766,218.7853,357,"LightGBM, P10/P50/P90 + conformal",observed
+7,2.2775,1205.9951,392.0425,357,"LightGBM, P10/P50/P90 + conformal",observed
+8,2.3047,1250.9379,495.3176,358,"LightGBM, P10/P50/P90 + conformal",observed
+9,2.3191,1301.4459,542.7694,359,"LightGBM, P10/P50/P90 + conformal",observed
+10,2.4047,1391.8031,599.8336,360,"LightGBM, P10/P50/P90 + conformal",observed
+11,2.5101,1495.8991,612.2414,361,"LightGBM, P10/P50/P90 + conformal",observed
+12,2.5389,1551.4621,622.0913,363,"LightGBM, P10/P50/P90 + conformal",observed
+13,2.4771,1540.4791,486.7051,361,"LightGBM, P10/P50/P90 + conformal",observed
+14,2.4582,1539.9655,444.0645,361,"LightGBM, P10/P50/P90 + conformal",observed
+15,2.4761,1560.8849,485.2762,363,"LightGBM, P10/P50/P90 + conformal",observed
+16,2.3974,1535.0740,423.6353,363,"LightGBM, P10/P50/P90 + conformal",observed
+17,2.4242,1566.5157,542.1651,363,"LightGBM, P10/P50/P90 + conformal",observed
+18,2.4225,1556.7843,602.6275,362,"LightGBM, P10/P50/P90 + conformal",observed
+19,2.5963,1645.6803,749.9464,362,"LightGBM, P10/P50/P90 + conformal",observed
+20,2.5937,1608.1244,745.2336,363,"LightGBM, P10/P50/P90 + conformal",observed
+21,2.6769,1628.9976,680.0338,362,"LightGBM, P10/P50/P90 + conformal",observed
+22,2.6668,1557.5280,560.8218,360,"LightGBM, P10/P50/P90 + conformal",observed
+23,2.6219,1460.4355,367.5657,358,"LightGBM, P10/P50/P90 + conformal",observed
+0,3.0356,1630.1605,-1284.1425,358,"LightGBM, MW target (ablation)",observed
+1,2.9346,1523.8817,-1142.0314,360,"LightGBM, MW target (ablation)",observed
+2,2.8510,1443.1581,-1047.0905,357,"LightGBM, MW target (ablation)",observed
+3,2.7635,1378.1091,-1002.2891,357,"LightGBM, MW target (ablation)",observed
+4,2.7694,1379.7270,-1044.0561,357,"LightGBM, MW target (ablation)",observed
+5,2.8708,1451.0217,-1075.7835,357,"LightGBM, MW target (ablation)",observed
+6,2.9639,1543.3893,-1139.2970,357,"LightGBM, MW target (ablation)",observed
+7,3.0430,1619.4351,-1208.9747,357,"LightGBM, MW target (ablation)",observed
+8,2.8012,1524.2949,-1085.1528,358,"LightGBM, MW target (ablation)",observed
+9,2.6578,1496.0611,-1131.6071,359,"LightGBM, MW target (ablation)",observed
+10,2.7938,1624.7726,-1308.7018,360,"LightGBM, MW target (ablation)",observed
+11,3.0254,1812.2361,-1500.0455,361,"LightGBM, MW target (ablation)",observed
+12,3.0862,1906.3456,-1552.4303,363,"LightGBM, MW target (ablation)",observed
+13,3.2299,2056.1819,-1719.2342,361,"LightGBM, MW target (ablation)",observed
+14,3.3402,2174.6818,-1815.0758,361,"LightGBM, MW target (ablation)",observed
+15,3.3227,2198.3779,-1817.0913,363,"LightGBM, MW target (ablation)",observed
+16,3.3868,2271.3349,-1943.3214,363,"LightGBM, MW target (ablation)",observed
+17,3.3305,2235.4603,-1834.9099,363,"LightGBM, MW target (ablation)",observed
+18,3.3839,2243.1325,-1827.4327,362,"LightGBM, MW target (ablation)",observed
+19,3.2874,2129.8991,-1743.7703,362,"LightGBM, MW target (ablation)",observed
+20,3.2209,2037.8694,-1690.7969,363,"LightGBM, MW target (ablation)",observed
+21,3.2823,2027.4443,-1670.9357,362,"LightGBM, MW target (ablation)",observed
+22,3.3045,1944.1180,-1512.3414,360,"LightGBM, MW target (ablation)",observed
+23,3.2734,1835.2510,-1414.9546,358,"LightGBM, MW target (ablation)",observed
+0,1.7818,932.3361,141.9083,360,ERCOT published day-ahead forecast,not used
+1,1.8336,930.3767,43.8449,361,ERCOT published day-ahead forecast,not used
+2,1.9018,947.3482,-37.6992,359,ERCOT published day-ahead forecast,not used
+3,1.8696,923.7250,-105.9361,360,ERCOT published day-ahead forecast,not used
+4,1.7992,897.5500,-178.2111,360,ERCOT published day-ahead forecast,not used
+5,1.8167,925.2111,-120.6333,360,ERCOT published day-ahead forecast,not used
+6,1.8972,989.2056,0.8944,360,ERCOT published day-ahead forecast,not used
+7,1.9216,1018.1722,104.1111,360,ERCOT published day-ahead forecast,not used
+8,2.1151,1124.3222,431.6667,360,ERCOT published day-ahead forecast,not used
+9,2.5094,1343.4306,836.1306,360,ERCOT published day-ahead forecast,not used
+10,2.4065,1324.1222,880.7333,360,ERCOT published day-ahead forecast,not used
+11,2.1740,1236.8500,779.4444,360,ERCOT published day-ahead forecast,not used
+12,2.0792,1224.8750,710.5806,360,ERCOT published day-ahead forecast,not used
+13,2.1140,1276.6750,712.5028,360,ERCOT published day-ahead forecast,not used
+14,2.1498,1318.2444,658.3500,360,ERCOT published day-ahead forecast,not used
+15,2.1459,1346.7306,594.0861,360,ERCOT published day-ahead forecast,not used
+16,2.0379,1309.7194,413.3750,360,ERCOT published day-ahead forecast,not used
+17,2.0058,1294.0694,332.6250,360,ERCOT published day-ahead forecast,not used
+18,1.9253,1233.5139,265.0417,360,ERCOT published day-ahead forecast,not used
+19,1.9047,1199.7861,178.1861,360,ERCOT published day-ahead forecast,not used
+20,1.9050,1173.5278,188.3056,360,ERCOT published day-ahead forecast,not used
+21,1.8513,1113.5500,195.5944,360,ERCOT published day-ahead forecast,not used
+22,1.8916,1090.0167,213.1111,360,ERCOT published day-ahead forecast,not used
+23,1.9394,1060.2556,225.2778,360,ERCOT published day-ahead forecast,not used
+0,2.6677,1486.5733,-893.2748,365,Vanilla regression (GEFCom benchmark),forecast
+1,2.4635,1304.7817,-636.9029,366,Vanilla regression (GEFCom benchmark),forecast
+2,2.3458,1203.9768,-495.7447,364,Vanilla regression (GEFCom benchmark),forecast
+3,2.2435,1126.0505,-340.2083,365,Vanilla regression (GEFCom benchmark),forecast
+4,2.2066,1105.1217,-277.3553,365,Vanilla regression (GEFCom benchmark),forecast
+5,2.9813,1571.0058,-773.2578,365,Vanilla regression (GEFCom benchmark),forecast
+6,2.9263,1582.0757,-683.9367,365,Vanilla regression (GEFCom benchmark),forecast
+7,2.7780,1521.6125,-555.0645,365,Vanilla regression (GEFCom benchmark),forecast
+8,2.5857,1449.7727,-537.7860,365,Vanilla regression (GEFCom benchmark),forecast
+9,2.5687,1477.9319,-490.1149,365,Vanilla regression (GEFCom benchmark),forecast
+10,2.7004,1586.7646,-482.7764,365,Vanilla regression (GEFCom benchmark),forecast
+11,2.9255,1754.4734,-446.7195,365,Vanilla regression (GEFCom benchmark),forecast
+12,3.1160,1913.2609,-284.3618,365,Vanilla regression (GEFCom benchmark),forecast
+13,3.3067,2087.8168,-226.3707,365,Vanilla regression (GEFCom benchmark),forecast
+14,3.4540,2220.3634,-173.3324,365,Vanilla regression (GEFCom benchmark),forecast
+15,3.5149,2295.9751,-343.6340,365,Vanilla regression (GEFCom benchmark),forecast
+16,3.4685,2297.0395,-510.0159,365,Vanilla regression (GEFCom benchmark),forecast
+17,3.5417,2350.0502,-741.7425,365,Vanilla regression (GEFCom benchmark),forecast
+18,3.4852,2282.7507,-935.4082,365,Vanilla regression (GEFCom benchmark),forecast
+19,3.3380,2172.6027,-1189.9944,365,Vanilla regression (GEFCom benchmark),forecast
+20,3.1315,2036.1886,-1211.4257,365,Vanilla regression (GEFCom benchmark),forecast
+21,3.0691,1945.3790,-1160.8143,365,Vanilla regression (GEFCom benchmark),forecast
+22,3.1833,1943.7734,-1169.0911,365,Vanilla regression (GEFCom benchmark),forecast
+23,3.2273,1881.7202,-1165.6911,365,Vanilla regression (GEFCom benchmark),forecast
+0,2.3123,1251.9544,-230.1142,365,"LightGBM, P10/P50/P90",forecast
+1,2.2420,1165.5074,-144.4174,366,"LightGBM, P10/P50/P90",forecast
+2,2.2931,1162.9695,-156.8522,364,"LightGBM, P10/P50/P90",forecast
+3,2.1936,1091.6120,-87.7242,365,"LightGBM, P10/P50/P90",forecast
+4,2.2205,1099.6502,-81.8843,365,"LightGBM, P10/P50/P90",forecast
+5,2.5457,1291.5879,-288.5327,365,"LightGBM, P10/P50/P90",forecast
+6,2.5686,1341.9007,-241.9413,365,"LightGBM, P10/P50/P90",forecast
+7,2.5302,1345.4008,-78.3642,365,"LightGBM, P10/P50/P90",forecast
+8,2.5062,1370.1119,-44.6843,365,"LightGBM, P10/P50/P90",forecast
+9,2.5129,1418.9962,163.0806,365,"LightGBM, P10/P50/P90",forecast
+10,2.7226,1585.1767,389.1982,365,"LightGBM, P10/P50/P90",forecast
+11,3.0456,1824.7106,626.4053,365,"LightGBM, P10/P50/P90",forecast
+12,3.3656,2077.6644,776.2958,365,"LightGBM, P10/P50/P90",forecast
+13,3.4180,2167.4183,894.5331,365,"LightGBM, P10/P50/P90",forecast
+14,3.4976,2230.3259,935.1952,365,"LightGBM, P10/P50/P90",forecast
+15,3.5863,2308.6400,916.4518,365,"LightGBM, P10/P50/P90",forecast
+16,3.3890,2216.0378,805.1878,365,"LightGBM, P10/P50/P90",forecast
+17,3.4011,2227.1257,901.7240,365,"LightGBM, P10/P50/P90",forecast
+18,3.3190,2151.9004,823.4602,365,"LightGBM, P10/P50/P90",forecast
+19,3.2300,2057.8864,705.7115,365,"LightGBM, P10/P50/P90",forecast
+20,3.1499,1976.1650,510.9257,365,"LightGBM, P10/P50/P90",forecast
+21,3.1487,1933.4198,376.3528,365,"LightGBM, P10/P50/P90",forecast
+22,3.0742,1817.2141,153.1294,365,"LightGBM, P10/P50/P90",forecast
+23,3.1582,1765.1156,-72.9313,365,"LightGBM, P10/P50/P90",forecast
+0,2.3613,1282.6133,-227.8864,365,"LightGBM, P10/P50/P90 + conformal",forecast
+1,2.2681,1185.7063,-175.8978,366,"LightGBM, P10/P50/P90 + conformal",forecast
+2,2.3072,1171.7056,-174.5828,364,"LightGBM, P10/P50/P90 + conformal",forecast
+3,2.2797,1139.4583,-100.9433,365,"LightGBM, P10/P50/P90 + conformal",forecast
+4,2.3055,1148.6570,-111.0105,365,"LightGBM, P10/P50/P90 + conformal",forecast
+5,2.6003,1323.2126,-275.5589,365,"LightGBM, P10/P50/P90 + conformal",forecast
+6,2.6034,1367.2835,-196.0798,365,"LightGBM, P10/P50/P90 + conformal",forecast
+7,2.5526,1365.3936,-55.5490,365,"LightGBM, P10/P50/P90 + conformal",forecast
+8,2.5430,1393.0463,-27.8661,365,"LightGBM, P10/P50/P90 + conformal",forecast
+9,2.6111,1477.0327,182.7999,365,"LightGBM, P10/P50/P90 + conformal",forecast
+10,2.8043,1635.6611,440.6057,365,"LightGBM, P10/P50/P90 + conformal",forecast
+11,3.1315,1880.9693,635.4814,365,"LightGBM, P10/P50/P90 + conformal",forecast
+12,3.4495,2134.7347,814.8749,365,"LightGBM, P10/P50/P90 + conformal",forecast
+13,3.4630,2190.1463,860.7863,365,"LightGBM, P10/P50/P90 + conformal",forecast
+14,3.5348,2250.6754,899.0779,365,"LightGBM, P10/P50/P90 + conformal",forecast
+15,3.5916,2308.7265,870.5577,365,"LightGBM, P10/P50/P90 + conformal",forecast
+16,3.4413,2243.3826,784.2147,365,"LightGBM, P10/P50/P90 + conformal",forecast
+17,3.4146,2232.4971,831.0032,365,"LightGBM, P10/P50/P90 + conformal",forecast
+18,3.3771,2190.0250,750.8179,365,"LightGBM, P10/P50/P90 + conformal",forecast
+19,3.2501,2082.9262,686.2463,365,"LightGBM, P10/P50/P90 + conformal",forecast
+20,3.1684,1999.1787,530.6745,365,"LightGBM, P10/P50/P90 + conformal",forecast
+21,3.1808,1961.1368,418.6325,365,"LightGBM, P10/P50/P90 + conformal",forecast
+22,3.0764,1825.7265,201.2663,365,"LightGBM, P10/P50/P90 + conformal",forecast
+23,3.1915,1801.1167,-48.4848,365,"LightGBM, P10/P50/P90 + conformal",forecast
+0,3.6175,1972.6577,-1718.9660,365,"LightGBM, MW target (ablation)",forecast
+1,3.3351,1749.7768,-1495.0706,366,"LightGBM, MW target (ablation)",forecast
+2,3.2540,1665.0637,-1355.1192,364,"LightGBM, MW target (ablation)",forecast
+3,3.1331,1578.0776,-1255.3769,365,"LightGBM, MW target (ablation)",forecast
+4,3.1331,1574.7870,-1269.0878,365,"LightGBM, MW target (ablation)",forecast
+5,3.8520,1983.3225,-1592.1698,365,"LightGBM, MW target (ablation)",forecast
+6,3.8406,2040.2013,-1666.9651,365,"LightGBM, MW target (ablation)",forecast
+7,3.9083,2114.7893,-1717.2906,365,"LightGBM, MW target (ablation)",forecast
+8,3.7640,2088.4921,-1722.0102,365,"LightGBM, MW target (ablation)",forecast
+9,3.5059,2007.2956,-1632.9713,365,"LightGBM, MW target (ablation)",forecast
+10,3.4454,2020.7635,-1580.3717,365,"LightGBM, MW target (ablation)",forecast
+11,3.5304,2124.6261,-1526.6116,365,"LightGBM, MW target (ablation)",forecast
+12,3.5384,2185.4024,-1358.2386,365,"LightGBM, MW target (ablation)",forecast
+13,3.6098,2290.3851,-1335.0999,365,"LightGBM, MW target (ablation)",forecast
+14,3.6755,2363.5256,-1362.0693,365,"LightGBM, MW target (ablation)",forecast
+15,3.7600,2448.5548,-1434.1476,365,"LightGBM, MW target (ablation)",forecast
+16,3.8130,2514.2369,-1611.7946,365,"LightGBM, MW target (ablation)",forecast
+17,3.8235,2532.2559,-1602.0269,365,"LightGBM, MW target (ablation)",forecast
+18,3.8800,2557.0407,-1734.9557,365,"LightGBM, MW target (ablation)",forecast
+19,3.8989,2529.7054,-1857.9647,365,"LightGBM, MW target (ablation)",forecast
+20,3.9391,2507.4629,-1982.2832,365,"LightGBM, MW target (ablation)",forecast
+21,4.0582,2528.1532,-2020.5061,365,"LightGBM, MW target (ablation)",forecast
+22,4.1993,2489.9983,-2005.0336,365,"LightGBM, MW target (ablation)",forecast
+23,4.2662,2423.3025,-1992.0757,365,"LightGBM, MW target (ablation)",forecast
