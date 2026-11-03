@@ -1,19 +1,32 @@
 # Upwork portfolio item
 
-Ready to paste. Every number is from `results/summary.csv`.
+Ready to paste into Upwork's portfolio form. Field limits are checked: the title is at most 70
+characters, the description at most 600, and there are at most 5 skills. Every number is from
+`results/summary.csv`.
 
 ## Title
 
-Day-ahead electricity demand forecast for Texas: 59% lower error than seasonal naive
+Day-ahead electricity demand forecast for Texas: 59% less error
 
-## Description (3 sentences)
+## Your role
 
-I built a day-ahead hourly demand forecast for the Texas grid (ERCOT) that issues a P10/P50/P90
-range every morning at 10:00, using only public data and weather forecasts as they were
-actually published. Over a full year it never saw, it cut the error of a "same hour last week"
-baseline by 59% (2.9% MAPE), and its calibrated P10–P90 band held 78% of actual hours. The
-repository is equally clear about the limits (ERCOT's own forecast is still more accurate, at
-2.0%) and includes leakage tests proving that no result used information from the future.
+Sole developer: data pipeline, forecasting models, backtesting, uncertainty and reporting
+
+## Description
+
+Day-ahead hourly demand forecast for the Texas grid (ERCOT), issued at 10:00 each morning as a
+P10/P50/P90 range, using only public data and weather forecasts as they were actually published.
+Over a full year it never saw, it cut the error of a "same hour last week" baseline by 59% (2.9%
+MAPE), and its calibrated P10–P90 band held 78% of actual hours. ERCOT's own forecast is still
+more accurate (2.0%), and the repo says so. Leakage tests prove no result used future data.
+
+## Skills (5)
+
+1. Python
+2. Machine Learning
+3. Time Series Forecasting
+4. LightGBM
+5. Data Science
 
 ## Images (in this order)
 
@@ -27,8 +40,3 @@ repository is equally clear about the limits (ERCOT's own forecast is still more
 ## Link
 
 https://github.com/matinjalali543-lang/energy-demand-forecasting
-
-## Skills to tag
-
-Time series forecasting · Load forecasting · LightGBM · Quantile regression ·
-Conformal prediction · Python · pandas · Energy analytics · Backtesting
